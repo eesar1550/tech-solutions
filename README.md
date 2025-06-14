@@ -5,6 +5,7 @@ TechSolutions is a modern, responsive, and visually engaging website built for a
 ## 📁 Project Structure
 
 TechSolutions/
+
 ├── index.html # Main HTML file
 
 ├── styles.css # Custom styling (external stylesheet)
@@ -69,7 +70,7 @@ TechSolutions/
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open source.
 
 ---
 
