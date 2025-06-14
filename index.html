@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions - Digital Excellence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <span class="logo-icon">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
+                    <circle cx="18" cy="18" r="16" stroke="#00f2fe" stroke-width="3" fill="#1a1a2e"/>
+                    <path d="M10 18c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8" stroke="#4facfe" stroke-width="2.5" fill="none"/>
+                    <circle cx="18" cy="18" r="4" fill="#4facfe"/>
+                </svg>
+            </span>
+            TechSolutions
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle dark/light mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" data-aos="fade-in">
+        <div class="blob"></div>
+        <!-- SVG Circuit Background -->
+        <svg class="circuit-bg" width="100%" height="100%" viewBox="0 0 1440 320" fill="none" xmlns="http://www.w3.org/2000/svg" style="position:absolute;top:0;left:0;z-index:0;pointer-events:none;">
+          <polyline points="0,160 400,80 800,200 1200,100 1440,160" stroke="#00f2fe" stroke-width="3" fill="none" opacity="0.15">
+            <animate attributeName="points" dur="4s" repeatCount="indefinite" values="0,160 400,80 800,200 1200,100 1440,160;0,180 400,60 800,220 1200,120 1440,180;0,160 400,80 800,200 1200,100 1440,160" />
+          </polyline>
+        </svg>
+        <div class="hero-content">
+            <h1>Transforming Ideas into Digital Reality</h1>
+            <p>We specialize in Digital Marketing, Web Development, and Graphic Design</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <!-- Animated SVG Icon: Digital Marketing -->
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="30" cy="30" r="28" stroke="#00f2fe" stroke-width="3" fill="none"/>
+                    <path d="M20 40 L40 20" stroke="#4facfe" stroke-width="3">
+                      <animate attributeName="d" values="M20 40 L40 20;M22 38 L38 22;M20 40 L40 20" dur="2s" repeatCount="indefinite"/>
+                    </path>
+                </svg>
+                <i class="fas fa-bullhorn"></i>
+                <h3>Digital Marketing</h3>
+                <p>Strategic marketing solutions to boost your online presence and reach your target audience effectively.</p>
+            </div>
+            <div class="service-card">
+                <!-- Animated SVG Icon: Web Development -->
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="10" y="10" width="40" height="40" rx="8" stroke="#00f2fe" stroke-width="3" fill="none"/>
+                    <rect x="20" y="20" width="20" height="20" rx="4" stroke="#4facfe" stroke-width="3" fill="none">
+                      <animate attributeName="x" values="20;18;20" dur="2s" repeatCount="indefinite"/>
+                    </rect>
+                </svg>
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Custom websites and web applications built with the latest technologies and best practices.</p>
+            </div>
+            <div class="service-card">
+                <!-- Animated SVG Icon: Graphic Design -->
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="30" cy="30" rx="25" ry="12" stroke="#00f2fe" stroke-width="3" fill="none"/>
+                    <ellipse cx="30" cy="30" rx="12" ry="25" stroke="#4facfe" stroke-width="3" fill="none">
+                      <animate attributeName="ry" values="25;20;25" dur="2s" repeatCount="indefinite"/>
+                    </ellipse>
+                </svg>
+                <i class="fas fa-paint-brush"></i>
+                <h3>Graphic Design</h3>
+                <p>Creative and professional design solutions that make your brand stand out.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio" data-aos="fade-up">
+        <h2>Our Work</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Web Development Project">
+                <div class="portfolio-overlay">
+                    <h3>Modern Web App</h3>
+                    <p>Web Development</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Graphic Design Project">
+                <div class="portfolio-overlay">
+                    <h3>Creative Branding</h3>
+                    <p>Graphic Design</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Digital Marketing Project">
+                <div class="portfolio-overlay">
+                    <h3>Marketing Campaign</h3>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" data-aos="fade-up">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>We are a team of passionate professionals dedicated to delivering exceptional digital solutions. With years of experience in the industry, we combine creativity with technical expertise to help businesses thrive in the digital world.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3 class="counter" data-target="100">0</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="50">0</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="5">0</h3>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team" data-aos="fade-up">
+        <h2>Meet Our Team</h2>
+        <div class="team-grid">
+            <div class="team-card" data-aos="fade-up">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Team Member 1">
+                <h3>Alex Carter</h3>
+                <p>Lead Developer</p>
+            </div>
+            <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Team Member 2">
+                <h3>Sophia Lee</h3>
+                <p>UI/UX Designer</p>
+            </div>
+            <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Team Member 3">
+                <h3>Michael Smith</h3>
+                <p>Marketing Strategist</p>
+            </div>
+            <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Team Member 4">
+                <h3>Emily Davis</h3>
+                <p>Graphic Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials" data-aos="fade-up">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-card active" data-aos="zoom-in">
+                <p>"TechSolutions transformed our online presence. Their web development and marketing expertise are unmatched!"</p>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Client 1">
+                    <span>John Doe, CEO, Acme Corp</span>
+                </div>
+            </div>
+            <div class="testimonial-card" data-aos="zoom-in">
+                <p>"The team's creativity in graphic design helped our brand stand out. Highly recommended!"</p>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/23.jpg" alt="Client 2">
+                    <span>Jane Smith, Founder, Designify</span>
+                </div>
+            </div>
+            <div class="testimonial-card" data-aos="zoom-in">
+                <p>"Professional, innovative, and always on time. We loved working with TechSolutions!"</p>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Client 3">
+                    <span>Mike Brown, CTO, MarketGenius</span>
+                </div>
+            </div>
+            <button class="testimonial-prev" aria-label="Previous testimonial">&#10094;</button>
+            <button class="testimonial-next" aria-label="Next testimonial">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- Blog/Insights Section -->
+    <section id="blog" class="blog" data-aos="fade-up">
+        <h2>Insights & Blog</h2>
+        <div class="blog-grid">
+            <div class="blog-card" data-aos="fade-up">
+                <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Blog 1">
+                <h3>5 Web Trends to Watch in 2024</h3>
+                <p>Stay ahead with the latest in web development, design, and user experience for the coming year.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Blog 2">
+                <h3>How to Build a Strong Brand Identity</h3>
+                <p>Discover the secrets to effective branding and graphic design for tech businesses.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Blog 3">
+                <h3>Digital Marketing: Strategies That Work</h3>
+                <p>Explore proven digital marketing tactics to grow your business and reach new customers.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" data-aos="fade-up">
+        <h2>Get in Touch</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>contact@techsolutions.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+1 234 567 890</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-location-dot"></i>
+                    <p>123 Tech Street, Digital City</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">TechSolutions</div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechSolutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 
