@@ -51,7 +51,7 @@ TechSolutions/
 
 ---
 ## Link
-Visit the site by using this link: http://127.0.0.1:5500/index.html
+Visit the site by using this link: https://eesar1550.github.io/tech-solutions/
 ---
 ## 📬 Contact
 
